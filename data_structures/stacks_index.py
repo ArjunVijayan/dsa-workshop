@@ -22,7 +22,7 @@ class Stack:
             print('begining of stack')
             return
 
-        val = self.stack[self.curr_index - 1]
+        val = self.stack[self.curr_index]
         self.curr_index -= 1
 
         return val
@@ -33,7 +33,7 @@ class Stack:
             print('end of stack')
             return
 
-        val =  self.stack[self.curr_index + 1]
+        val =  self.stack[self.curr_index]
         self.curr_index += 1
 
         return val
